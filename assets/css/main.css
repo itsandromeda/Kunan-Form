@@ -49,11 +49,27 @@ body {
     margin-bottom: 40px;
 }
 
+.field h3 {
+    font-size: 15px;
+    font-weight: 100;
+    color: #707274;
+    margin: 0;
+}
+
 .field {
     display: inline-block;
     vertical-align: top;
     width: 50%;
-    margin: 0 -4px 35px 0;
+    margin: 0 -4px 0 0;
+}
+
+.description {
+    padding-top: 5px;
+    line-height: 25px;
+}
+
+.no-margin {
+    margin: 0;
 }
 
 fieldset {
@@ -61,8 +77,12 @@ fieldset {
     padding: 0;
 }
 
-legend[for="sex"] {
+legend {
     margin-bottom: 10px;
+}
+
+.option {
+    margin-top: 5px;
 }
 
 .checkbox input {
@@ -72,9 +92,8 @@ legend[for="sex"] {
     outline: none;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.bot-field {
+    margin-top: 25px;
 }
 
 p,
@@ -85,6 +104,11 @@ label,
     color: #707274;
     font-size: 0.9rem;
     list-style: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
 }
 
 input[type="text"] {
@@ -105,14 +129,26 @@ select {
     border-radius: 3px;
     border: none;
     display: block;
-    margin: 0 auto 15px auto;
+    margin: 20px auto 15px auto;
     padding: 10px 15px;
     outline: none;
     cursor: pointer;
 }
 
-.terms {
+.bottom15 {
+    margin-bottom: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.right {
     float: right;
+}
+
+.left {
+    float: left;
 }
 
 
